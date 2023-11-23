@@ -4,7 +4,7 @@ let listaNumeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 function filtraNumeriPari (lista){
 let listaNumeriPari = lista.filter((index) => index % 2 == 0);
-console.log(listaNumeriPari)
+return listaNumeriPari;
 }
 
 let listaNumeriPari = filtraNumeriPari(listaNumeri)
