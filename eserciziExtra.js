@@ -11,7 +11,7 @@ let listaNumeriPari = filtraNumeriPari(listaNumeri)
 console.log(listaNumeriPari)
 
 
-// funzione per filtrare da una concatenazione di due array solo gli elementi con 5 lettere
+// funzione per filtrare, da una concatenazione di due array, solo gli elementi con 5 lettere
 
 let array1 = ["cane", "mucca", "pecora", "leone", "tigre"];
 let array2 = ["pane", "pasta", "pesce", "verdura", "frutta"];
@@ -26,3 +26,8 @@ function filtraPerLunghezza (array1, array2, lunghezzaMinima){
 
 let arrayUnitoFiltrato = filtraPerLunghezza(array1, array2, lunghezzaMinimaParola)
 console.log(arrayUnitoFiltrato)
+
+
+
+
+
